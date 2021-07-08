@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="my.ExpandoGlobalVariableTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-08T05:23:38" hostname="KAZUAKInoAir.AirPort" time="0.444">
+  <properties/>
+  <testcase name="test_addGlobalVariable()" classname="my.ExpandoGlobalVariableTest" time="0.444"/>
+  <system-out><![CDATA[-------------------test_addGlobalVariable before 1st clear-------------------
+static: [CONFIG]
+additional: []
+static+additional: [CONFIG]
+-------------------test_addGlobalVariable after 1st clear-------------------
+static: [CONFIG]
+additional: []
+static+additional: [CONFIG]
+-------------------test_addGlobalVariable after adding-------------------
+static: [CONFIG]
+additional: [additive1, additive2]
+static+additional: [CONFIG, additive1, additive2]
+-------------------test_addGlobalVariable after 2nd clear-------------------
+static: [CONFIG]
+additional: []
+static+additional: [CONFIG]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

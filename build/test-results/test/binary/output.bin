@@ -1,0 +1,16 @@
+N-------------------test_addGlobalVariable before 1st clear-------------------
+static: [CONFIG]
+additional: []
+static+additional: [CONFIG]
+M-------------------test_addGlobalVariable after 1st clear-------------------
+static: [CONFIG]
+additional: []
+static+additional: [CONFIG]
+J-------------------test_addGlobalVariable after adding-------------------
+static: [CONFIG]
+#additional: [additive1, additive2]
+2static+additional: [CONFIG, additive1, additive2]
+M-------------------test_addGlobalVariable after 2nd clear-------------------
+static: [CONFIG]
+additional: []
+static+additional: [CONFIG]
